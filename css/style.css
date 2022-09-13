@@ -392,7 +392,6 @@ a {
 
 .header {
   padding-top: 40px;
-  padding-bottom: 28px;
 }
 
 .header-top {
@@ -462,6 +461,12 @@ a {
 .statistics {
   padding: 43px;
   background: #121212;
+  margin-top: 218px;
+}
+
+.statistics-button {
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
 }
 
 .statistics-content {
@@ -483,6 +488,12 @@ a {
 
 .statistics-cash__result {
   margin-left: 30px;
+  margin-bottom: 8px;
+}
+
+.statistics-cash__sum {
+  opacity: 0.7;
+  margin-bottom: 8px;
 }
 
 .statistics-cash-text {
@@ -494,7 +505,15 @@ a {
 .statistics-cash__line {
   width: 440px;
   height: 6px;
-  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  background: linear-gradient(90deg, #df5950 12%, #451046 60%, white 60%);
+}
+
+.statistics-cash-numbers {
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
 }
 
 .statistics-people {
